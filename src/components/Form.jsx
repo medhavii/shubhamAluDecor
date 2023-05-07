@@ -37,21 +37,21 @@ export const Form = () => {
   };
 
   return (
-    <div>
+    <div className="flex justify-center my-4">
       {formSubmitted ? (
-        <h1 className="text-xl text-center text-yellow-400">We will try to get back to you super soon.😊</h1>
+        <h1 className="text-xl text-center min-h-screen flex justify-center text-yellow-400">We will try to get back to you super soon.😊</h1>
       ) : (
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="bg-yellow-200 text-white mx-4 my-4 w-80 border-2 border-red-600"
+          className="bg-yellow-200 text-white mx-4 my-4 w-80 "
         >
           <input
             type="text"
             name="user_name"
             id=""
             placeholder="Name"
-            className="mx-4 my-2"
+            className="mx-4 my-2 text-pink-400"
           />
           <input
             type="email"
