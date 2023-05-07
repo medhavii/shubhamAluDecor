@@ -44,7 +44,7 @@ export const Form = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="bg-yellow-200 text-white mx-4 my-4 w-80 "
+          className=" rounded border-slate-600 border-4 text-white mx-4 my-4 w-80 "
         >
           <input
             type="text"

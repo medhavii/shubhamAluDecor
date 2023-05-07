@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Dropdown = () => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <div >
-      <div className="mx-4" onClick={(e) => setIsActive(!isActive)}>Products</div>
+    <div className="relative flex ">
+      <div className="m-2 p-2 " onClick={(e) => setIsActive(!isActive)}>Products</div>
       {isActive && (
-        <div className="flex flex-col mx-4">
-          <Link className="hover:bg-yellow-400 hover:rounded hover:p-2" to="/windows">Windows</Link>
-          <Link className="hover:bg-yellow-400 hover:rounded hover:p-2" to="/doors">Doors</Link>
+        <div className=" absolute flex flex-col py-2 mt-12 w-full rounded bg-slate-500 ">
+          <Link className="hover:bg-slate-600 px-3 " to="/windows">Windows</Link>
+          <Link className="hover:bg-slate-600 px-3" to="/doors">Doors</Link>
         </div>
       )}
     </div>

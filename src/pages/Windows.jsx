@@ -56,7 +56,7 @@ const Windows = () => {
     <div className="flex justify-center flex-col mb-8 ">
       <div className="flex justify-center m-2 min-h-screen ">
         <div className=" flex w-11/12  justify-center">
-        <div className="w-4/6 flex flex-col justify-center m-2 p-2">
+          <div className="w-4/6 flex flex-col justify-center m-2 p-2">
             <span className="text-4xl text-purple-500">Windows</span>
             <h1 className="text-2xl text-yellow-400">
               Experience the difference of precision-crafted aluminium windows.
@@ -70,17 +70,15 @@ const Windows = () => {
               to your satisfaction ensures a seamless window selection
               experience.
             </p>
-        
-        </div>
+          </div>
 
-        <div className="flex flex-col justify-center p-2 m-2">
-          <img
-            src="https://img.freepik.com/free-photo/beautiful-kitchen-with-modern-interior_181624-57935.jpg?size=626&ext=jpg&ga=GA1.2.606803408.1681710001&semt=sph"
-            alt=""
-          />
+          <div className="flex flex-col justify-center p-2 m-2">
+            <img
+              src="https://img.freepik.com/free-photo/beautiful-kitchen-with-modern-interior_181624-57935.jpg?size=626&ext=jpg&ga=GA1.2.606803408.1681710001&semt=sph"
+              alt=""
+            />
+          </div>
         </div>
-        </div>
-          
       </div>
       <div className="flex justify-center m-2 ">
         <div className="flex  w-10/12 flex-wrap justify-center ">
