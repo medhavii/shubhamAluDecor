@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../src/components/Navbar'
+
+import Header from '../src/components/Navbar'
 import Footer from './components/Footer'
 import Form from './components/Form'
 import Windows from './pages/Windows'
@@ -13,7 +14,7 @@ import Notfound from './pages/Notfound'
 const App = () => {
   return (
     <>
-       <Navbar/>
+       <Header/>
        <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Wcu" element={<Features/>}></Route>
