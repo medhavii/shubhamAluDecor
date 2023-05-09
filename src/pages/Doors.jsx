@@ -49,7 +49,7 @@ const Doors = () => {
           <div className="w-4/6 flex flex-col justify-center m-2 p-2">
             <span className="text-4xl text-purple-500">Doors</span>
 
-            <p className="text-xl text-gray-600 ">
+            <p className="text-xl text-yellow-50 ">
               Whether you’re building a new home or re-imagining an existing
               one,{" "}
               <span className="text-2xl text-yellow-400">Shubham AluDecor</span>{" "}

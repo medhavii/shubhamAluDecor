@@ -10,7 +10,7 @@ const Links = [
 ];
 const Header = () => {
   return (
-    <div className="shadow-md w-full sticky top-0 left-0 z-10 text-white bg-slate-600">
+    <div className="shadow-md w-full sticky top-0 left-0 z-10 text-yellow-50 bg-slate-600">
       <div className="flex items-center justify-between">
         <Link className="flex   items-center ml-2" to="/">
           <span className="m-2">
